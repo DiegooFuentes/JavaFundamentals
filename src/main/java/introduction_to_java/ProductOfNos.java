@@ -1,5 +1,5 @@
 package introduction_to_java;
-
+//Exercise 4
 public class ProductOfNos {
     public static void main(String[] args) {
         System.out.println("Enter the first number:");
@@ -7,5 +7,6 @@ public class ProductOfNos {
         System.out.println("Enter the second number:");
         int var2 = Integer.parseInt(System.console().readLine()); //Only works in terminal
         System.out.printf("The product of the two numbers is %d", (var1 * var2));
+
     }
 }
