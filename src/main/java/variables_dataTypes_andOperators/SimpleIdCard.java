@@ -20,5 +20,6 @@ public class SimpleIdCard {
                 "University: " + university + "\n" +
                 "Age: " + age + "\n" +
                 "**************************");
+
     }
 }
