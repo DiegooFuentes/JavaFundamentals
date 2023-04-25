@@ -17,7 +17,7 @@ public class DeliveryFee {
 
     public static int deliveryFeeCalculator(int distance){
 
-        int fee = 0;
+        int fee;
         if (distance > 0 && distance < 5){
             fee = 2;
         } else if (distance >= 5 && distance < 15 ) {
